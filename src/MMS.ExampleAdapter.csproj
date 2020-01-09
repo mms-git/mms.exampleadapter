@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MMS-Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MMS-Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MMS.MachineAdapter" Version="1.0.2-alpha" />
+  </ItemGroup>
+
+</Project>
